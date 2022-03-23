@@ -21,14 +21,19 @@
 
 .container3 {
     background-color: hsl(218, 20%, 24%);
+    width: 20rem;
     height: 15rem;
-    width: 25rem;
     border-radius: 5%;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
+}
 
+@media screen and (min-width: 500px) {
+    .container3 {
+        width: 25rem;
+    }
 }
 
 .container4 {
