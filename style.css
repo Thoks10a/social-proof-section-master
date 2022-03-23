@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    background-color: hsl(220, 22%, 16%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 39.05rem;
+    width: 100%;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container3 {
+    background-color: hsl(218, 20%, 24%);
+    height: 15rem;
+    width: 25rem;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container4 {
+    height: 95%;
+    width: 95%;
+}
+
+.p-div {
+    font-size: 18px;
+    color: white;
+    height: 110px;
+}
+
+.p-div2 {
+    height: 30px;
+}
+
+.div-button {
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: hsl(151, 97%, 66%);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(151, 67%, 59%);
+    border: 1px solid black;
+}
+
+.div-button2 {}
+
+.div-button2 button {}
+
+.div-advice {
+    height: 100%;
+    border-bottom: 1px solid gray;
+}
